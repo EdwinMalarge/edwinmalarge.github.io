@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  background-color: lightgray;
+  }
+
+aside {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  width: 350px;
+  height: 30%;
+  padding-top: 7%;
+  padding-right: 12%;
+}
+
+em {
+  color: #151316;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 3em;
+  color: lightgray;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  padding-left: 10%;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-weight: 300;
+  padding-bottom: 3%;
+}
+
+p {
+  font-size: 1.2em;
+  color: #254c65;
+  padding: 2.5%;
+}
+
+header {
+
+  background-color: #151316;
+  padding: 0.5% 5%;
+}
+
+footer {
+  background-color: #151316;
+  color: lightgrey;
+  padding: 1.5% 5%;
+  clear: both;
+}
+
+section {
+  float: left;
+  padding: 6%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+@media screen and (max-width: 996px) {
+  header,
+  footer {
+    padding: 2% 2%;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  h1 {
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 3.5em;
+  }
+
+  p {
+    font-size: 2.2em;
+  }
+
+  section {
+    padding: 5% 2% 5% 2%;
+  }
+}

@@ -1,0 +1,38 @@
+.tableau-langage {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 10%;
+}
+
+.photo-profil {
+  border-radius: 200px;
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.introduction h2 {
+  margin-bottom: 5%;
+}
+
+.introduction p {
+  margin-bottom: 5%;
+}
+
+.introduction div {
+  padding-right: 15%;
+}
+
+.lien-linkedin {
+  color: #151316;
+}
+
+.lien-linkedin:hover {
+  text-decoration: none;
+}
